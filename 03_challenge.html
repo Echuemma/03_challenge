@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  <title>Setting Background Color</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20%;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Change Background Color</h1>
+  <button onclick="changeBackgroundColor()">Click to Change Background Color</button>
+
+  <script>
+    function changeBackgroundColor() {
+      document.body.style.backgroundColor = "orange";
+    }
+  </script>
+</body>
+</html>
